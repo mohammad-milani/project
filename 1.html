@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<hrml>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1 		&#128514; </title>
+<head>
+    <style>
+   caption{transition-duration: 1s;}
+      caption:hover{
+      color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      }
+      .dropdown {
+        width: 1000px;
+  position: relative;
+  display: inline-block;
+}
+      td:hover {background-color: coral;}
+      tr:nth-child(even) {background-color: #f2f2f2;}
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse :collapse;
+        border-radius: 10px;
+        border-style: dotted;
+        border-color: #d4bf96;
+      }
+      th, td {
+        background-color: #ffffff;
+        padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+      }
+      th {
+  text-align: left;
+}
+table {
+  border-spacing: 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block
+}
+input[type=text]:focus
+{width: 100%;
+transition: width 2s;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+iframe{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+
+      </style>
+      <div style="overflow-x: auto;">
+    <table style="height: 100%; width: 50%; " >
+        <caption>Monthly savings</caption>
+        <tr>
+          <th style="width:20%">Person 1</th>
+          <th >Person 2</th>
+          <th>Person 3</th>
+        </tr>
+        <tr>
+          <td>Emil</td>
+          <td>Tobias</td>S
+          <td>Linus</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>14</td>
+          <td>10</td>
+        </tr>
+      </table>
+    </div>
+</head>
+<body>
+  <iframe src="Untitled-1.html" name="iframe-a" height="300px" width="100%" style="border:none ;"
+   title="Iframe Example"></iframe>
+   <div class="dropdown">
+   <p><a href="main.html" target="iframe-a">main.html</a></p>
+  </div>
+   <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+</body>
+<div class="dropdown">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+  <p>Hello World!</p>
+  </div>
+</div>
+</html>
